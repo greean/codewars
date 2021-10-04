@@ -18,7 +18,7 @@ function solution(str) {
     return str;
 }
 
-console.log(solution('camelCasing'));
-console.log(solution('camelCasingTest'));
-console.log(solution('thinkIGotThis'));
-console.log(solution(''));
+console.log(solution('camelCasing'));           // => camel Casing
+console.log(solution('camelCasingTest'));       // => camel Casing Test
+console.log(solution(''));                      // => 
+console.log(solution('thinkIGotThis'));         // => think I Got This
